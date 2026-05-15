@@ -1,0 +1,38 @@
+name: Refresh live flight radar
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Fetch flight data and patch README
+        run: python scripts/update_flights.py
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes - skies are unchanged."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(radar): refresh live flight data"
+          git push
