@@ -138,22 +138,19 @@ A cloud-native operations platform for airports. Three products, one mission:
 
 <br>
 
-A small Python package in [`scripts/`](./scripts) is driven by a single GitHub Actions workflow:
+A single script driven by one GitHub Actions workflow:
 
 | Workflow | Trigger | Job |
 |---|---|---|
-| [`radar.yml`](./.github/workflows/radar.yml) | `cron: "0 */3 * * *"` | refresh README, commit if changed |
+| [`radar.yaml`](./.github/workflows/radar.yaml) | `cron: "0 */3 * * *"` | refresh README, commit if changed |
 
-**Architecture**
+**How it works**
 
-- [`scripts/config.py`](./scripts/config.py) — every tunable parameter (timeout, country-limit, featured-hub roster, README markers) lives here so the rest of the code is pure logic.
-- [`scripts/opensky.py`](./scripts/opensky.py) — a typed REST client. Exposes a `StateVector` NamedTuple so the rest of the codebase uses **named field access (`s.on_ground`) instead of magic indices (`s[8]`)**. Each upstream failure mode maps to a distinct exception (`OpenSkyTimeout`, `OpenSkyNetworkError`, `OpenSkyParseError`, `OpenSkySchemaError`) so the orchestrator can react surgically.
-- [`scripts/update_flights.py`](./scripts/update_flights.py) — pure orchestration: fetch → render → patch. Emits a single JSON `metrics=...` line per run (`outcome`, `states_processed`, `readme_changed`, `fetch_ms`, `render_ms`, `total_ms`) so it slots straight into a log aggregator.
-- [`tests/`](./tests) — pytest with mocked `urlopen`. Covers the happy path, every exception mapping, schema-validation rejections, and renderer edge cases (empty states, all-on-ground, missing optional fields).
+[`scripts/update_flights.py`](./scripts/update_flights.py) does everything in one pass: fetch → summarise → render → patch. It calls OpenSky's free `/states/all` endpoint, computes headline stats (aircraft counts, average altitude/speed, highest and fastest flights, top countries by airborne aircraft), renders a markdown block, and rewrites the section between the `FLIGHT-DATA` markers in this README. Stdlib only — no dependencies.
 
-**Failure mode.** If OpenSky times out, refuses, returns junk, or breaks its own schema, the script logs the specific cause, emits a metric, exits 0, and leaves the previous snapshot in place until the next sweep — so a transient upstream blip never leaves a broken README behind.
+**Failure mode.** If OpenSky times out or returns junk, the script logs the cause, exits 0, and leaves the previous snapshot in place — a transient upstream blip never breaks the README.
 
-**Footprint.** Single API call. Stdlib-only at runtime. ~1 second per sweep on a GitHub-hosted runner. No servers, no secrets, no cost.
+**Footprint.** Single API call. ~1 second per sweep on a GitHub-hosted runner. No servers, no secrets, no cost.
 
 </details>
 
@@ -163,7 +160,7 @@ A small Python package in [`scripts/`](./scripts) is driven by a single GitHub A
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/AeroCloud-Website-0A66C2?style=for-the-badge&logo=globe&logoColor=white)](https://aerocloudsystems.com)
+[![Website](https://img.shields.io/badge/AeroCloud-Website-0A66C2?style=for-the-badge&logo=globe&logoColor=white)](https://aerocloudsystems.com/get-in-touch/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-PAge-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/aerocloud-systems/)
 
 </div>
