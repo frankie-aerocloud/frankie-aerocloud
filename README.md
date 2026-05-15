@@ -160,8 +160,8 @@ A single script driven by one GitHub Actions workflow:
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/AeroCloud-Website-0A66C2?style=for-the-badge&logo=globe&logoColor=white)](https://aerocloudsystems.com/get-in-touch/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-PAge-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/aerocloud-systems/)
+[![Contact Us](https://img.shields.io/badge/Contact-US-0A66C2?style=for-the-badge&logo=globe&logoColor=white)](https://aerocloudsystems.com/get-in-touch/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Page-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/aerocloud-systems/)
 
 </div>
 
