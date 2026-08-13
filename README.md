@@ -96,16 +96,16 @@ A cloud-native operations platform for airports. Three products, one mission:
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║       ✈   L I V E   G L O B A L   F L I G H T   R A D A R   ✈        ║
-║                         2026-08-12 21:48 UTC                         ║
+║                         2026-08-13 02:09 UTC                         ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║ Aircraft tracked worldwide .................................. 11,102 ║
-║   └── currently airborne ..................................... 9,999 ║
-║   └── on the ground (taxi / parked) .......................... 1,103 ║
+║ Aircraft tracked worldwide ................................... 7,720 ║
+║   └── currently airborne ..................................... 6,892 ║
+║   └── on the ground (taxi / parked) ............................ 828 ║
 ║                                                                      ║
-║ Average cruise altitude .................................. 21,064 ft ║
-║ Average ground speed ....................................... 325 kts ║
-║ Highest flight (EJA412) ................................. 106,200 ft ║
-║ Fastest flight (BTI724) .................................. 2,759 kts ║
+║ Average cruise altitude .................................. 22,213 ft ║
+║ Average ground speed ....................................... 347 kts ║
+║ Highest flight (GHA97) ................................... 49,000 ft ║
+║ Fastest flight (FIN88) ................................... 4,517 kts ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -115,22 +115,22 @@ A cloud-native operations platform for airports. Three products, one mission:
 
 | # | Country of registration | Aircraft aloft |
 |:---:|:---|---:|
-| 1 | United States | 6,197 |
-| 2 | Canada | 410 |
-| 3 | United Kingdom | 373 |
-| 4 | Ireland | 234 |
-| 5 | Australia | 203 |
-| 6 | Turkey | 179 |
-| 7 | Brazil | 159 |
-| 8 | Malta | 157 |
+| 1 | United States | 3,742 |
+| 2 | Canada | 317 |
+| 3 | China | 295 |
+| 4 | Australia | 287 |
+| 5 | Turkey | 194 |
+| 6 | Japan | 177 |
+| 7 | India | 140 |
+| 8 | United Arab Emirates | 136 |
 
-### 🛫  Today's Featured Hub — `SIN` · Singapore Changi
+### 🛫  Today's Featured Hub — `AMS` · Amsterdam Schiphol
 
-> _Voted world's best airport more times than anyone can count._
+> _One terminal, six runways, an entire city's worth of bicycles._
 
 > Hubs at this scale are exactly where AeroCloud's **Airport Operations System** and **Passenger Flow Monitoring** earn their keep — every flight here is a small symphony of stands, gates, baggage belts, immigration desks, and people.
 
-<sub>📡 Last transmission: <b>2026-08-12 21:48 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
+<sub>📡 Last transmission: <b>2026-08-13 02:09 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
 <!-- FLIGHT-DATA:END -->
 
 <details>
