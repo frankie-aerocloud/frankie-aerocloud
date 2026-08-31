@@ -96,16 +96,16 @@ A cloud-native operations platform for airports. Three products, one mission:
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║       ✈   L I V E   G L O B A L   F L I G H T   R A D A R   ✈        ║
-║                         2026-08-30 23:16 UTC                         ║
+║                         2026-08-31 04:27 UTC                         ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║ Aircraft tracked worldwide ................................... 9,332 ║
-║   └── currently airborne ..................................... 8,300 ║
-║   └── on the ground (taxi / parked) .......................... 1,032 ║
+║ Aircraft tracked worldwide ................................... 6,218 ║
+║   └── currently airborne ..................................... 5,467 ║
+║   └── on the ground (taxi / parked) ............................ 751 ║
 ║                                                                      ║
-║ Average cruise altitude .................................. 22,096 ft ║
-║ Average ground speed ....................................... 341 kts ║
-║ Highest flight (AAL3316) ................................. 99,500 ft ║
-║ Fastest flight (MGH932) .................................. 2,625 kts ║
+║ Average cruise altitude .................................. 24,385 ft ║
+║ Average ground speed ....................................... 371 kts ║
+║ Highest flight (UAE2517) ................................ 125,900 ft ║
+║ Fastest flight (FIN88) ................................... 4,528 kts ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -115,22 +115,22 @@ A cloud-native operations platform for airports. Three products, one mission:
 
 | # | Country of registration | Aircraft aloft |
 |:---:|:---|---:|
-| 1 | United States | 4,999 |
-| 2 | Canada | 362 |
-| 3 | Australia | 272 |
-| 4 | United Kingdom | 262 |
-| 5 | Japan | 187 |
-| 6 | Turkey | 167 |
-| 7 | China | 158 |
-| 8 | United Arab Emirates | 123 |
+| 1 | United States | 1,830 |
+| 2 | China | 340 |
+| 3 | Australia | 291 |
+| 4 | Turkey | 179 |
+| 5 | Malta | 171 |
+| 6 | Canada | 170 |
+| 7 | Japan | 164 |
+| 8 | India | 157 |
 
-### 🛫  Today's Featured Hub — `DFW` · Dallas/Fort Worth
+### 🛫  Today's Featured Hub — `LHR` · London Heathrow
 
-> _Bigger than the island of Manhattan - five parallel runways._
+> _Two runways, ~1,300 movements a day. Slot coordination as a sport._
 
 > Hubs at this scale are exactly where AeroCloud's **Airport Operations System** and **Passenger Flow Monitoring** earn their keep — every flight here is a small symphony of stands, gates, baggage belts, immigration desks, and people.
 
-<sub>📡 Last transmission: <b>2026-08-30 23:16 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
+<sub>📡 Last transmission: <b>2026-08-31 04:27 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
 <!-- FLIGHT-DATA:END -->
 
 <details>
