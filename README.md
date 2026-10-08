@@ -96,16 +96,16 @@ A cloud-native operations platform for airports. Three products, one mission:
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║       ✈   L I V E   G L O B A L   F L I G H T   R A D A R   ✈        ║
-║                         2026-10-07 18:37 UTC                         ║
+║                         2026-10-08 00:47 UTC                         ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║ Aircraft tracked worldwide .................................. 12,964 ║
-║   └── currently airborne .................................... 11,845 ║
-║   └── on the ground (taxi / parked) .......................... 1,119 ║
+║ Aircraft tracked worldwide ................................... 8,924 ║
+║   └── currently airborne ..................................... 7,930 ║
+║   └── on the ground (taxi / parked) ............................ 994 ║
 ║                                                                      ║
-║ Average cruise altitude .................................. 20,449 ft ║
-║ Average ground speed ....................................... 313 kts ║
+║ Average cruise altitude .................................. 21,077 ft ║
+║ Average ground speed ....................................... 333 kts ║
 ║ Highest flight (HBAL815) ................................. 64,800 ft ║
-║ Fastest flight (AHY019) .................................. 3,285 kts ║
+║ Fastest flight (FIN42) ................................... 4,526 kts ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -115,22 +115,22 @@ A cloud-native operations platform for airports. Three products, one mission:
 
 | # | Country of registration | Aircraft aloft |
 |:---:|:---|---:|
-| 1 | United States | 7,240 |
-| 2 | Canada | 445 |
-| 3 | United Kingdom | 352 |
-| 4 | Turkey | 315 |
-| 5 | Ireland | 305 |
-| 6 | Malta | 238 |
-| 7 | Germany | 236 |
-| 8 | Brazil | 170 |
+| 1 | United States | 4,888 |
+| 2 | Australia | 380 |
+| 3 | Canada | 309 |
+| 4 | China | 271 |
+| 5 | Turkey | 179 |
+| 6 | Japan | 175 |
+| 7 | India | 144 |
+| 8 | Republic of Korea | 130 |
 
-### 🛫  Today's Featured Hub — `HND` · Tokyo Haneda
+### 🛫  Today's Featured Hub — `CDG` · Paris CDG
 
-> _Famously punctual - average delay measured in seconds._
+> _Europe's second-busiest. Terminal 1 is a brutalist concrete donut._
 
 > Hubs at this scale are exactly where AeroCloud's **Airport Operations System** and **Passenger Flow Monitoring** earn their keep — every flight here is a small symphony of stands, gates, baggage belts, immigration desks, and people.
 
-<sub>📡 Last transmission: <b>2026-10-07 18:37 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
+<sub>📡 Last transmission: <b>2026-10-08 00:47 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
 <!-- FLIGHT-DATA:END -->
 
 <details>
