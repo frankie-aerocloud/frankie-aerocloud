@@ -96,16 +96,16 @@ A cloud-native operations platform for airports. Three products, one mission:
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║       ✈   L I V E   G L O B A L   F L I G H T   R A D A R   ✈        ║
-║                         2026-11-02 00:23 UTC                         ║
+║                         2026-11-02 10:40 UTC                         ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║ Aircraft tracked worldwide ................................... 8,384 ║
-║   └── currently airborne ..................................... 7,419 ║
-║   └── on the ground (taxi / parked) ............................ 965 ║
+║ Aircraft tracked worldwide ................................... 6,673 ║
+║   └── currently airborne ..................................... 5,919 ║
+║   └── on the ground (taxi / parked) ............................ 754 ║
 ║                                                                      ║
-║ Average cruise altitude .................................. 22,919 ft ║
-║ Average ground speed ....................................... 355 kts ║
-║ Highest flight (KOW700) .................................. 47,000 ft ║
-║ Fastest flight (VKG645) .................................. 4,035 kts ║
+║ Average cruise altitude .................................. 24,422 ft ║
+║ Average ground speed ....................................... 366 kts ║
+║ Highest flight (TCN100) .................................. 47,175 ft ║
+║ Fastest flight (QTR5Q) ................................... 4,069 kts ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -115,14 +115,14 @@ A cloud-native operations platform for airports. Three products, one mission:
 
 | # | Country of registration | Aircraft aloft |
 |:---:|:---|---:|
-| 1 | United States | 4,354 |
-| 2 | Canada | 347 |
-| 3 | Australia | 318 |
-| 4 | China | 256 |
-| 5 | Japan | 174 |
-| 6 | United Kingdom | 165 |
-| 7 | Turkey | 154 |
-| 8 | United Arab Emirates | 128 |
+| 1 | United States | 701 |
+| 2 | United Kingdom | 472 |
+| 3 | China | 321 |
+| 4 | Turkey | 297 |
+| 5 | Ireland | 297 |
+| 6 | Germany | 281 |
+| 7 | Malta | 241 |
+| 8 | France | 205 |
 
 ### 🛫  Today's Featured Hub — `ORD` · Chicago O'Hare
 
@@ -130,7 +130,7 @@ A cloud-native operations platform for airports. Three products, one mission:
 
 > Hubs at this scale are exactly where AeroCloud's **Airport Operations System** and **Passenger Flow Monitoring** earn their keep — every flight here is a small symphony of stands, gates, baggage belts, immigration desks, and people.
 
-<sub>📡 Last transmission: <b>2026-11-02 00:23 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
+<sub>📡 Last transmission: <b>2026-11-02 10:40 UTC</b> &nbsp;·&nbsp; Source: <a href="https://opensky-network.org">OpenSky Network</a> (free, no API key) &nbsp;·&nbsp; Refreshed every 3 h by GitHub Actions.</sub>
 <!-- FLIGHT-DATA:END -->
 
 <details>
